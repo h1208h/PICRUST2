@@ -1,0 +1,2 @@
+# PICRUST2
+PICRUST2 bash file
