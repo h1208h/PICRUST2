@@ -2,8 +2,8 @@
 
 for i in $(ls *.fq.gz | sed 's/_[12].fq.gz//' | uniq)
 do
-        echo $i
-        python paired_fastq_to_Ptags.py ${i} ${i}
+	echo $i
+	python paired_fastq_to_Ptags.py ${i} ${i}
 
 
 done
